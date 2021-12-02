@@ -1,0 +1,110 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  .banner-content h4 {
+  font-size: 33px;
+}
+.banner-img {
+  height: 650px;
+}
+.banner-content {
+  padding-top: 70px;
+}
+.project-complit-area .content {
+  font-family: initial;
+  font-size: 20px;
+}
+.project-img {
+  height: 300px;
+}
+.testimonial-slider p {
+  font-size: 20px;
+}
+.blog-img {
+  max-height: 190px;
+} 
+  
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+ .menu-area ul {
+	margin: 0;
+	padding: 10px;
+	font-size: 15px;
+}
+.banner-content h4 {
+	font-size: 33px;
+}
+.banner-img {
+	height: 700px;
+}
+#agency {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.project-complit-area .icon {
+	font-size: 50px;
+	padding: 0px 10px;
+}
+.blog-img {
+    max-height: 215px;
+} 
+.blog-full-contect {
+	height: 440px;
+}
+.project-complit-area .content {
+	font-size: 15px;
+	padding: 8px 0px;
+}
+.project-img {
+	max-width: 50%;
+}
+.testimonial-area p {
+	font-size: 19px;
+}
+.contact-area h1 {
+	font-size: 30px;
+}
+.contact-area p {
+	font-size: 15px;
+}
+.contact-area-adds {
+	line-height: 20px;
+}
+[type="submit"] {
+	padding: 10px 15px;
+}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .project-img {
+	max-width: 100%;}
+.slicknav_menu {
+  display: block;
+}
+.menu-area {
+	display: none;
+}
+.banner-content p {
+	font-size: 16px;
+}
+.banner-content h4 {
+	font-size: 25px;
+}
+.banner-img {
+	height: 400px;
+}
+.banner-btn {
+	display: none;
+}
+.testimonial-area p {
+	font-size: 16px;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+}
+
+}
